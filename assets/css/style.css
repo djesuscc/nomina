@@ -181,7 +181,7 @@ body .content-login {
 }
 
 .container .ctn-title {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     margin-bottom: 10px;
 }

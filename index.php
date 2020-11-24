@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <title>Login</title>
 </head>
 <body>
-    <div class="content-login">
+    <div class="content-login container">
         <form action="./sql/login.php" method="post" class="form">
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+            </div>
             <h1>Iniciar Sesión</h1>
             <div class="content">
                 <div class="content-input">
@@ -24,5 +28,7 @@
             </div>
         </form>
     </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
